@@ -88,7 +88,7 @@ Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration 
 ---
 
 ## 📄 Licence
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+Ce projet est sous licence MIT. Voir le fichier LICENCE pour plus de détails.
 
 ---
 
