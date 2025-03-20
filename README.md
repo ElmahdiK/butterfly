@@ -1,6 +1,9 @@
 <p align="center">
   <img src="./public/screenshot.png">
 </p>
+
+---
+
 # Butterfly
 
 Bienvenue dans le projet **Butterfly** ! 🦋
@@ -17,7 +20,6 @@ Le projet inclut également une **barre de recherche** permettant aux utilisateu
 - **Vite** : Un outil moderne de développement front-end pour un démarrage rapide et une performance optimisée.
 - **TypeScript** : Un sur-ensemble de JavaScript qui ajoute des types statiques pour rendre le code plus sûr et plus lisible.
 - **SCSS** : Un préprocesseur CSS pour des styles modulaires et flexibles.
-- **Barre de recherche** : Permet aux utilisateurs de filtrer les papillons par critères définis (par exemple, couleur, taille, etc.).
 
 ---
 
@@ -91,8 +93,12 @@ Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 ---
 
 ## 📫 Contact
-Pour toute question ou suggestion, vous pouvez me contacter à :
-Email: elmahdi.korfed@gmail.com
+
+Pour toute question, suggestion ou autre, vous pouvez me contacter via les moyens suivants :
+
+- **Email**: [elmahdi.korfed@gmail.com](mailto:elmahdi.korfed@gmail.com)
+- **LinkedIn**: [https://www.linkedin.com/in/elmahdikorfed/](https://www.linkedin.com/in/elmahdikorfed/)
+
 
 ---
 
