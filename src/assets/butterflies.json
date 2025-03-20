@@ -28,5 +28,9 @@
         "name": "Papilusion",
         "image": "papilusion.jpg",
         "description": "Le Papilusion est un papillon rare, célèbre pour ses ailes translucides qui créent des illusions visuelles fascinantes. Il vit principalement dans les forêts tropicales et est connu pour sa capacité à changer de couleur en fonction de la lumière."
+    },{ 
+        "name": "Cabbage white butterfly",
+        "image": "cabbage_white_butterfly.jpg",
+        "description": "Le piéride du chou (Pieris rapae) est un petit papillon de couleur blanche avec des taches noires sur ses ailes avant. Les mâles ont des ailes complètement blanches, tandis que les femelles ont une petite tache noire sur chaque aile avant. Il est souvent vu dans les jardins et les champs, surtout au printemps et en été. Les chenilles de ce papillon se nourrissent principalement des feuilles de plantes de la famille des crucifères, comme les choux. Ce papillon est très commun en Europe, en Asie et en Amérique du Nord."
     }
 ]
