@@ -3,6 +3,10 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 20px;
-    // justify-content: center;
-    // align-items: center;
+}
+
+@media (width <= 700px) {
+    main {
+        justify-content: center;
+    }
 }

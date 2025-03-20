@@ -15,17 +15,18 @@ a {
 
 /* 3. Style de base pour le corps du document */
 html {
-    background-color: #283593;
+  background-color: #283593;
 }
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-//   background-color: #fafafa;
+  //   background-color: #fafafa;
   color: #333;
 }
 
 /* 4. Suppression du style de liste de base */
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -57,7 +58,8 @@ table {
   width: 100%;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 8px;
 }
