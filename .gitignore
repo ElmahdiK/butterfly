@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Vite build output
+/dist
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# npm package lock file
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Testing
+/coverage
