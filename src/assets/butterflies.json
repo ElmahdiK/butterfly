@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Monarch",
+        "image": "monarch.jpg",
+        "description": "The monarch butterfly is one of the most recognizable and well-studied butterflies on the planet. Its orange wings are laced with black lines and bordered with white dots. The caterpillar feeds on milkweed, which makes it poisonous to predators. The adult butterfly can be found in a variety of habitats, from forests to meadows to gardens. Monarchs are known for their long migrations, which can cover thousands of miles. They are found throughout North and South America, as well as in Australia, New Zealand, and other parts of the world."
+    },
+    {
+        "name": "Swallowtail",
+        "image": "swallowtail.jpg",
+        "description": "The swallowtail butterfly is a large, colorful butterfly that is found in many parts of the world. It is known for its distinctive tail-like extensions on its hindwings, which give it its name. The caterpillar feeds on a variety of plants, including citrus trees, fennel, and parsley. The adult butterfly can be found in a variety of habitats, from forests to meadows to gardens. Swallowtails are known for their graceful flight and their bright colors, which can range from yellow and black to blue and red. They are found throughout North and South America, as well as in Europe, Asia, and Africa."
+    },
+    {
+        "name": "Blue Morpho",
+        "image": "blue_morpho.jpg",
+        "description": "The blue morpho butterfly is a large, iridescent butterfly that is found in the rainforests of Central and South America. Its wings are a brilliant blue color, with black edges and white spots. The caterpillar feeds on a variety of plants, including bananas, guava, and passionflower. The adult butterfly can be found in the canopy of the rainforest, where it feeds on nectar from flowers. Blue morphos are known for their striking appearance and their rapid flight. They are found throughout Central and South America, as well as in Mexico and the Caribbean."
+    },
+    {
+        "name": "Painted Lady",
+        "image": "painted_lady.jpg",
+        "description": "The painted lady butterfly is a medium-sized butterfly that is found in many parts of the world. It is known for its bright orange wings, which are laced with black lines and bordered with white spots. The caterpillar feeds on a variety of plants, including thistles, mallows, and hollyhocks. The adult butterfly can be found in a variety of habitats, from meadows to gardens to urban areas. Painted ladies are known for their long migrations, which can cover thousands of miles. They are found throughout North and South America, as well as in Europe, Asia, and Africa."
+    },
+    {
+        "name": "Tiger Swallowtail",
+        "image": "tiger_swallowtail.jpg",
+        "description": "The tiger swallowtail butterfly is a large, colorful butterfly that is found in many parts of the world. It is known for its distinctive yellow and black stripes, which give it its name. The caterpillar feeds on a variety of plants, including cherry, ash, and willow. The adult butterfly can be found in a variety of habitats, from forests to meadows to gardens. Tiger swallowtails are known for their graceful flight and their bright colors, which can range from yellow and black to blue and red. They are found throughout North and South America, as well as in Europe, Asia, and Africa."
+    },
+    {
+        "name": "Papilusion",
+        "image": "papilusion.jpg",
+        "description": "Le Papilusion est un papillon rare, célèbre pour ses ailes translucides qui créent des illusions visuelles fascinantes. Il vit principalement dans les forêts tropicales et est connu pour sa capacité à changer de couleur en fonction de la lumière."
+    }
+]
