@@ -12,7 +12,7 @@ const Header = (props: HeaderProps) => {
   return (
     <>
       <header>
-        <a href="/">{title}</a>
+        <a href="./">{title}</a>
         <SearchBar onSearch={onSearch} />
       </header>
       <InfoBar />
