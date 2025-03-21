@@ -21,20 +21,20 @@ Le projet inclut également une **barre de recherche** permettant aux utilisateu
 - **TypeScript** : Un sur-ensemble de JavaScript qui ajoute des types statiques pour rendre le code plus sûr et plus lisible.
 - **SCSS** : Un préprocesseur CSS pour des styles modulaires et flexibles.
 
-Le déploiement est automatisé grâce à GitHub Actions, et le site est accessible à l'adresse suivante : 
+Le déploiement est automatisé grâce à GitHub Actions, et l'application est accessible à l'adresse suivante : 
 
-[Voir la démo du site](https://elmahdik.github.io/butterfly/)
+[Voir la démo](https://elmahdik.github.io/butterfly/)
 ---
 
 ## 🎨 Fonctionnalités
 
 - Affichage de papillons animés dans une interface fluide.
-- Site structuré en composants React pour une meilleure organisation du code.
+- Structuré en composants React pour une meilleure organisation du code.
 - Design soigné avec SCSS, permettant une personnalisation facile et une gestion efficace des styles.
 - Utilisation de TypeScript pour garantir un code robuste et typé.
 - **Barre de recherche** pour filtrer les papillons affichés selon des critères spécifiques.
 - Performance optimisée grâce à Vite, pour une expérience utilisateur rapide et réactive.
-
+- Responsive grâce aux media queries, offrant une expérience optimale sur tous les types d'écrans, qu'ils soient mobiles, tablettes ou ordinateurs.
 ---
 
 ## 🚀 Lancer le projet en local
