@@ -1,9 +1,7 @@
 div.div-butterfly {
   background: rgba(255, 255, 255, 1);
-  box-shadow: 0 0 1px #fff;
-  border: 1px solid #000;
-  padding: 10px;
-  margin: 4px;
+  padding: 20px;
+  margin: 1px;
   display: flex;
   flex-direction: column;
   img {
@@ -17,6 +15,7 @@ div.div-butterfly {
     text-align: center;
     font-size: 16px;
     padding-top: 10px;
+    text-transform: lowercase;
   }
   button {
     &:hover {
@@ -26,14 +25,12 @@ div.div-butterfly {
     background: dodgerblue;
     color: white;
     border: 1px solid #000;
-    font-weight: bold;
-    cursor: pointer;
-    text-transform: uppercase;
-    box-shadow: 1px 1px 1px 0px #ccc;
-    border-radius: 2px;
     font-size: 11px;
     margin-top: 10px;
     padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
   }
 }
 

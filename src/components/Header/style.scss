@@ -1,14 +1,14 @@
 header {
-  background: rgba(255, 255, 255, 0.05);
-  border: 3px solid #2196f3;
-  color: #eee;
-  padding: 20px;
+  padding-bottom: 20px;
   margin: 20px;
+  margin-bottom: 0px;
   border-radius: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   p {
-    font-size: 24px;
+    color: #fff;
+    font-size: 32px;
+    padding: 20px;
   }
 }

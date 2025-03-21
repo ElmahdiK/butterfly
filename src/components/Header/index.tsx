@@ -1,3 +1,4 @@
+import InfoBar from "../InfoBar";
 import SearchBar from "../SearchBar";
 import "./style.scss";
 
@@ -9,9 +10,12 @@ interface HeaderProps {
 const Header = (props: HeaderProps) => {
   const { title, onSearch } = props;
   return (
-    <header>
-      <p>{title}</p> <SearchBar onSearch={onSearch} />
-    </header>
+    <>
+      <header>
+        <p>{title}</p> <SearchBar onSearch={onSearch} />
+      </header>
+      <InfoBar />
+    </>
   );
 };
 

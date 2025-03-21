@@ -1,0 +1,19 @@
+#div-info-bar {
+  background-color: #283593;
+  border-top: 1px solid dodgerblue;
+  padding: 20px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+
+  span {
+    color: #eee;
+    font-size: 18px;
+  }
+  p {
+    color: #bbb;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: justify;
+  }
+}
