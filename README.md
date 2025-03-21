@@ -8,7 +8,7 @@
 
 Bienvenue dans le projet **Butterfly** ! 🦋
 
-**Butterfly** est une application web développée avec **React**, **Vite** et **TypeScript**, qui a pour but d'afficher des papillons magnifiques sur une interface moderne et épurée. Le projet est structuré en composants React, ce qui permet une gestion claire et modulable du code. Côté design, j'ai choisi d'utiliser **SCSS** pour une gestion élégante des styles et des animations. 
+**Butterfly** est une application web développée avec **React**, **Vite** et **TypeScript**, qui a pour but d'afficher des papillons sur une interface moderne et épurée. Le projet est structuré en composants React, ce qui permet une gestion claire et modulable du code. Côté design, j'ai choisi d'utiliser **SCSS** pour une gestion élégante des styles et des animations. 
 
 Le projet inclut également une **barre de recherche** permettant aux utilisateurs de filtrer et de trouver facilement des papillons en fonction de leurs préférences.
 
@@ -21,6 +21,9 @@ Le projet inclut également une **barre de recherche** permettant aux utilisateu
 - **TypeScript** : Un sur-ensemble de JavaScript qui ajoute des types statiques pour rendre le code plus sûr et plus lisible.
 - **SCSS** : Un préprocesseur CSS pour des styles modulaires et flexibles.
 
+Le déploiement est automatisé grâce à GitHub Actions, et le site est accessible à l'adresse suivante : 
+
+[Voir la démo du site](https://elmahdik.github.io/butterfly/)
 ---
 
 ## 🎨 Fonctionnalités
