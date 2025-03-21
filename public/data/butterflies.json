@@ -1,5 +1,10 @@
 [
     {
+        "name": "Greta oto",
+        "image": "greta_oto.jpg",
+        "description": "Le Greta oto, communément appelé le papillon vitrail, est une espèce de papillon de la famille des Nymphalidae que l'on trouve en Amérique centrale et du Sud. Il est célèbre pour ses ailes transparentes, qui sont encadrées de bords orange-brun. Les ailes translucides du papillon lui confèrent une apparence unique et saisissante, car elles laissent passer la lumière, créant un effet similaire à du verre. Les chenilles se nourrissent de certaines espèces de passiflores, et les adultes sont généralement trouvés dans les forêts et les habitats tropicaux, où ils volent gracieusement parmi le feuillage."
+    },
+    {
         "name": "Monarque",
         "image": "monarch.jpg",
         "description": "Le papillon monarque est l'un des papillons les plus reconnaissables et les mieux étudiés de la planète. Ses ailes orange sont parsemées de lignes noires et bordées de points blancs. La chenille se nourrit de l'asclépiade, ce qui la rend toxique pour les prédateurs. Le papillon adulte peut être trouvé dans une variété d'habitats, des forêts aux prairies en passant par les jardins. Les monarques sont connus pour leurs longues migrations, qui peuvent couvrir des milliers de kilomètres. Ils se trouvent à travers l'Amérique du Nord et du Sud, ainsi qu'en Australie, en Nouvelle-Zélande et dans d'autres parties du monde."
