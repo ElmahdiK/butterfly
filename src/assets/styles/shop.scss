@@ -1,0 +1,23 @@
+.shop {
+  padding: 20px;
+  margin: 20px;
+
+  h1 {
+    color: #eee;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .product-list {
+    display: flex;
+  }
+}
+
+@media (width <= 700px) {
+  h1 {
+    text-align: center;
+  }
+  .product-list {
+    flex-direction: column;
+  }
+}

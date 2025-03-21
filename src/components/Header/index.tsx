@@ -3,16 +3,16 @@ import SearchBar from "../SearchBar";
 import "./style.scss";
 
 interface HeaderProps {
-  title: string;
+  // title: string;
   onSearch: (searchTerm: string) => void;
 }
 
 const Header = (props: HeaderProps) => {
-  const { title, onSearch } = props;
+  const { onSearch } = props;
   return (
     <>
       <header>
-        <a href="./">{title}</a>
+        {/* <a href="./">{title}</a> */}
         <SearchBar onSearch={onSearch} />
       </header>
       <InfoBar />

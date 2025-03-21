@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Kit d'élevage",
+        "url": "https://www.amazon.fr/papillons-Cultiver-garantie-mat%C3%A9riel-dapprentissage/dp/B0CX1Z8TG3/ref=sr_1_3_sspa?crid=2PES0ZXVD7D8T&dib=eyJ2IjoiMSJ9.ybD5fO3uKgXIcPI65wFMGPeRRtGcy2HmMCeGMJcSei1hOkAxycAKW37c4SwTZUEiYaQmSY1ZLo2umYHNikOhZcYbtwP6IGdcJKtah3St3Ta6ieX7b2AD_xtQaJ5qwvNvFI-pWFACWpJMYtQsy75Txh3FEJRbpGWE6F0blu4jv5dpcqSoXdbpXCP7CRtos9SzvRAuaiLLdNqJS6R35kz4slPT5SKcgqyoN-AtpTuTBwpvyajymFa_Nn0pIdoRZph_cJOD_Sq4LVQYzDnMjvjFCbiHpdx40Hs7wPUi4ln1V_o.F2m6g5rd1WjmBMIp-06BZIgkuAn5_Mum9VU7j-30pOY&dib_tag=se&keywords=kit%2Belevage%2Bpapillon&qid=1742590944&sprefix=kit%2Beleva%2Caps%2C94&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+        "image": "kit.jpg",
+        "price": 49.90
+    },
+    {
+        "name": "Jumelles",
+        "url": "https://www.amazon.fr/National-Geographic-%C5%93illetons-Caoutchouc-Traitement/dp/B0B5XSTVPR/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=11Y80IFQ5SLJU&dib=eyJ2IjoiMSJ9.dLSp_ncKw2rOhiOX00hJybK5CZGnIxxkKaODZ0Ty66Xuzyj5eSSygQTmQhe2eoOytPMHeFzZ-TVNHnXhFOLkoAvYpqc5fMa396zMZqETgnNVve0R_yS0Tzx-OKqUQ56BWPOWTT-mBaSNNFs_XUTRa9BJYX-_LiEDh-zHTOlfUB32D5FxwbSykeAy1wcjafowtXf2fjJjR59fNdSSYYxXoE8ZfBL2LVt0JiAi73-ZGOPCDntfP5kbVvJZU1YKSbkL5CzVClYgPJR4tKXoQDfiUuDXSHK_NwATVujwU1gO0t8.ym5POsjlxYGr1mvvWB889xAem2-D2AU-_y147MZQMS8&dib_tag=se&keywords=jumelle+papillon&qid=1742590901&sprefix=jumelle+papillon%2Caps%2C75&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+        "image": "binoculars.jpg",
+        "price": 29.99
+    },
+    {
+        "name": "Livre d'identification",
+        "url": "https://www.amazon.fr/Petit-guide-papillons-Morgane-PEYROT/dp/2412056382/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=UD8DXHH7W1KD&dib=eyJ2IjoiMSJ9.-vHz6glouA8B4CEqMLlKv9LFeH8qn34ODV6Gj8-TQU-T8ZroCEJI0xMjHNMqoDPIPBqW38eEvaLH46lYCz6o0ATvsURy4FlitKmCDqLXA7V1tgd2mhTVLGoH_Ivz6xtxknjWnSD2nd2nbwoqffSZUxAkBsxxJtevnO7ilywVmYfhi1DtLBej925D4fEypOFZXJJRyxofbolxvWIaBYZcohnug9Kk868gUtK1Bvtusy9ti6ygf588N4tRgEWtK28G7g-CtE_RR4L7tbQTeHPxl6HQ8kpz6rndnLfa0fAhiv8VjRqA3pWZARpGcQT8VaCQXo7hlwl9a7lYsYkF_TAMZ0YTPgJ_bLZSOJoSOH44LKEZ8My405lfoq9uti_A_3Ly.PARSaN1hfgFfcHwM3cdwVS9cWxyofRtpQbF8EzNBTEk&dib_tag=se&keywords=Livre+d%27identification+papillon&qid=1742590753&sprefix=livre+d%27identification+papillon%2Caps%2C70&sr=8-1",
+        "image": "book.jpg",
+        "price": 4.50
+    }
+]

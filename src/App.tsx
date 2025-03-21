@@ -1,54 +1,35 @@
-import { useState, useEffect } from "react";
-import Butterfly from "./components/Butterfly";
-import Header from "./components/Header";
-import butterfliesData from "../public/data/butterflies.json";
 import "./styles/App.scss";
 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home"; // La page Shop que nous avons créée
+import Shop from "./pages/Shop"; // La page Shop que nous avons créée
+import About from "./pages/About";
+
 const App = () => {
-  const [butterflies, setButterflies] = useState(butterfliesData);
-  const [filteredButterflies, setFilteredButterflies] =
-    useState(butterfliesData);
-
-  const [searchText, setSearchText] = useState("");
-
-  useEffect(() => {
-    setButterflies(butterfliesData);
-    setFilteredButterflies(butterfliesData);
-  }, []);
-
-  const handleSearch = (searchTerm: string) => {
-    setSearchText(searchTerm);
-    if (searchTerm === "") {
-      setFilteredButterflies(butterflies);
-      return;
-    }
-
-    const filtered = butterflies.filter((butterfly) => {
-      return butterfly.name.toLowerCase().includes(searchTerm.toLowerCase());
-    });
-    setFilteredButterflies(filtered);
-  };
-
+  const LINKS = [
+    { name: "Accueil", path: "/" },
+    { name: "À propos", path: "/about" },
+    { name: "Boutique", path: "/shop" },
+  ];
   return (
-    <>
-      <Header title="Butterfly" onSearch={handleSearch} />
-      <main>
-        {filteredButterflies.map((butterfly, index) => (
-          <Butterfly
-            key={index}
-            name={butterfly.name}
-            img={butterfly.image}
-            audio={1}
-          />
-        ))}
-        {filteredButterflies.length === 0 && (
-          <p className="no-results">
-            Aucun résultat trouvé pour " {searchText} "{" "}
-            <img src="./img/noresults.jpg" />
-          </p>
-        )}
-      </main>
-    </>
+    <Router>
+      <nav>
+        <p>Butterfly</p>
+        <ul>
+          {LINKS.map((link) => (
+            <li key={link.path}>
+              <a href={link.path}>{link.name}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/shop" element={<Shop />} />
+      </Routes>
+    </Router>
   );
 };
 

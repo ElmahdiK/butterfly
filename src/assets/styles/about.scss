@@ -1,0 +1,51 @@
+.about {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: #eee;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 40px;
+    width: 50%;
+  }
+
+  .p-author {
+    text-align: center;
+
+    span {
+      font-size: 14px;
+    }
+  }
+  a {
+    &:hover {
+      background-color: #303f9f;
+      color: #fff;
+      text-decoration: none;
+    }
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #303f9f;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    align-self: center;
+  }
+}
+
+@media (width <= 700px) {
+  h1 {
+    text-align: center;
+  }
+  p {
+    width: 80% !important;
+  }
+}
