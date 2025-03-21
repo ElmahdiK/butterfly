@@ -9,7 +9,7 @@ const App = () => {
   const [filteredButterflies, setFilteredButterflies] =
     useState(butterfliesData);
 
-  const [, setSearchText] = useState("");
+  const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
     setButterflies(butterfliesData);
@@ -41,6 +41,9 @@ const App = () => {
             audio={1}
           />
         ))}
+        {filteredButterflies.length === 0 && (
+          <p className="no-results">No results found for " {searchText} " <img src="./img/_noresults.avif" /></p>
+        )}
       </main>
     </>
   );
