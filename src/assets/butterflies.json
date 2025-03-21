@@ -30,8 +30,34 @@
         "description": "Le Papilusion est un papillon rare, célèbre pour ses ailes translucides qui créent des illusions visuelles fascinantes. Il vit principalement dans les forêts tropicales et est connu pour sa capacité à changer de couleur en fonction de la lumière."
     },
     {
-        "name": "Cabbage white butterfly",
+        "name": "Cabbage white",
         "image": "cwb.jpg",
         "description": "Le piéride du chou (Pieris rapae) est un petit papillon de couleur blanche avec des taches noires sur ses ailes avant. Les mâles ont des ailes complètement blanches, tandis que les femelles ont une petite tache noire sur chaque aile avant. Il est souvent vu dans les jardins et les champs, surtout au printemps et en été. Les chenilles de ce papillon se nourrissent principalement des feuilles de plantes de la famille des crucifères, comme les choux. Ce papillon est très commun en Europe, en Asie et en Amérique du Nord."
+    },{
+        "name": "Red admiral",
+        "image": "red_admiral.jpg",
+        "description": "L'amiral rouge (Vanessa atalanta) est un papillon aux ailes d'un rouge vif avec des taches noires et blanches. Il est souvent vu dans les jardins et les forêts ouvertes. Les chenilles se nourrissent des orties et d'autres plantes communes. Ce papillon est très répandu en Europe et en Amérique du Nord."
+    },
+    {
+        "name": "Peacock",
+        "image": "peacock.jpg",
+        "description": "Le paon du jour (Inachis io) est un grand papillon aux ailes brunes ornées de motifs oculaires colorés. Les ailes arrière sont également dotées de magnifiques motifs qui ressemblent à des yeux de paon. Ce papillon est souvent vu dans les jardins et les bois et se nourrit principalement de prunelles et de raiponces."
+    },{
+        "name": "Common blue",
+        "image": "common_blue.jpg",
+        "description": "Le bleu commun (Polyommatus icarus) est un petit papillon aux ailes bleu vif chez les mâles, tandis que les femelles ont des ailes brunes avec des taches bleues. Il est souvent trouvé dans les prairies et les zones ensoleillées. Les chenilles se nourrissent principalement de trèfles."
+    },{
+        "name": "Brimstone",
+        "image": "brimstone.jpg",
+        "description": "Le citron (Gonepteryx rhamni) est un papillon de couleur jaune vif, souvent observé dès les premiers jours du printemps. Il a une forme distinctive en V sur les ailes. Les chenilles se nourrissent principalement des feuilles de buis."
+    },{
+        "name": "Small tortoiseshell",
+        "image": "small_tortoiseshell.jpg",
+        "description": "La petite tortue (Aglais urticae) est un papillon aux ailes orange vif avec des taches noires et des bordures bleues. Très courant en Europe, il est souvent trouvé dans les jardins et les bois. Les chenilles se nourrissent des orties."
     }
+    
+    
+    
+    
+    
 ]
