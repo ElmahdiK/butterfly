@@ -23,7 +23,8 @@ Le projet inclut également une **barre de recherche** permettant aux utilisateu
 
 Le déploiement est automatisé grâce à GitHub Actions, et l'application est accessible à l'adresse suivante : 
 
-[Voir la démo](https://elmahdik.github.io/butterfly/)
+<a href="https://elmahdik.github.io/butterfly/" target="_blank">Voir la démo</a>
+
 ---
 
 ## 🎨 Fonctionnalités
