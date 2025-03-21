@@ -7,9 +7,9 @@ import About from "./pages/About";
 
 const App = () => {
   const LINKS = [
-    { name: "Accueil", path: "/" },
-    { name: "À propos", path: "/about" },
-    { name: "Boutique", path: "/shop" },
+    { name: "Accueil", path: "./" },
+    { name: "À propos", path: "./about" },
+    { name: "Boutique", path: "./shop" },
   ];
 
   return (
@@ -26,9 +26,9 @@ const App = () => {
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/shop" element={<Shop />} />
+        <Route path="./" element={<Home />} />
+        <Route path="./about" element={<About />} />
+        <Route path="./shop" element={<Shop />} />
       </Routes>
     </Router>
   );
