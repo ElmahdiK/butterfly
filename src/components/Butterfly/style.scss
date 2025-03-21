@@ -1,4 +1,9 @@
 div.div-butterfly {
+  &:hover {
+    img {
+      object-position: 0 0;
+    }
+  }
   background: rgba(255, 255, 255, 1);
   padding: 20px;
   margin: 1px;
@@ -10,6 +15,7 @@ div.div-butterfly {
     height: 200px;
     object-fit: cover;
     margin: 0 auto;
+    transition: all 2s;
   }
   p {
     text-align: center;

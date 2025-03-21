@@ -9,15 +9,15 @@ const Butterfly = (props: ButterflyProps) => {
   const { name, img, audio } = props;
 
   const handleClick = () => {
-    const audi = new Audio(`./mp3/${audio}.mp3`);
-    audi.play();
+    const sound = new Audio(`./mp3/${audio}.mp3`);
+    sound.play();
   };
 
   return (
     <div className="div-butterfly">
       <img src={`./img/${img}`} alt={name} />
       <p>{name}</p>
-      <button onClick={handleClick}>Click to listen</button>
+      <button onClick={handleClick}>à propos</button>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Butterfly from "./components/Butterfly";
 import Header from "./components/Header";
-import butterfliesData from "./assets/butterflies.json";
+import butterfliesData from "../public/data/butterflies.json";
 import "./styles/App.scss";
 
 const App = () => {
@@ -42,7 +42,10 @@ const App = () => {
           />
         ))}
         {filteredButterflies.length === 0 && (
-          <p className="no-results">No results found for " {searchText} " <img src="./img/noresults.jpg" /></p>
+          <p className="no-results">
+            Aucun résultat trouvé pour " {searchText} "{" "}
+            <img src="./img/noresults.jpg" />
+          </p>
         )}
       </main>
     </>

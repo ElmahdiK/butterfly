@@ -5,15 +5,52 @@
   margin: 0px 20px;
   display: flex;
   flex-direction: column;
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  span {
-    color: #eee;
-    font-size: 18px;
+    span {
+      color: #eee;
+      font-size: 18px;
+      padding-bottom: 20px;
+    }
+
+    button {
+      &:hover {
+        background-color: #303f9f;
+        color: #fff;
+      }
+      background-color: #fff;
+      color: #303f9f;
+      border: 1px solid #fff;
+      font-size: 12px;
+      width: 220px;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+      cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
+      align-self: flex-end;
+    }
   }
+
   p {
     color: #bbb;
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 16px;
+    margin-top: 30px;
     text-align: justify;
+    flex: 2;
+  }
+}
+
+@media (width <= 700px) {
+  #div-info-bar {
+    div {
+      flex-direction: column;
+      button {
+        align-self: center;
+      }
+    }
   }
 }
