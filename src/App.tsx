@@ -1,8 +1,8 @@
 import "./styles/App.scss";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home"; // La page Shop que nous avons créée
-import Shop from "./pages/Shop"; // La page Shop que nous avons créée
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import Shop from "./pages/Shop";
 import About from "./pages/About";
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
     { name: "À propos", path: "/about" },
     { name: "Boutique", path: "/shop" },
   ];
+
   return (
     <Router>
       <nav>
@@ -18,7 +19,7 @@ const App = () => {
         <ul>
           {LINKS.map((link) => (
             <li key={link.path}>
-              <a href={link.path}>{link.name}</a>
+              <Link to={link.path}>{link.name}</Link>
             </li>
           ))}
         </ul>
