@@ -42,7 +42,7 @@ const App = () => {
           />
         ))}
         {filteredButterflies.length === 0 && (
-          <p className="no-results">No results found for " {searchText} " <img src="./img/_noresults.webp" /></p>
+          <p className="no-results">No results found for " {searchText} " <img src="./img/_noresults.jpg" /></p>
         )}
       </main>
     </>
