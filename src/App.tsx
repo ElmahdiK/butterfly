@@ -7,9 +7,9 @@ import About from "./pages/About";
 
 const App = () => {
   const LINKS = [
-    { name: "Accueil", path: "https://elmahdik.github.io/butterfly/" },
-    { name: "À propos", path: "https://elmahdik.github.io/butterfly/about" },
-    { name: "Boutique", path: "https://elmahdik.github.io/butterfly/shop" },
+    { name: "Accueil", path: "/butterfly/" },
+    { name: "À propos", path: "/butterfly/about" },
+    { name: "Boutique", path: "/butterfly/shop" },
   ];
 
   return (
@@ -26,9 +26,9 @@ const App = () => {
       </nav>
 
       <Routes>
-        <Route path="https://elmahdik.github.io/butterfly/" element={<Home />} />
-        <Route path="https://elmahdik.github.io/butterfly/about" element={<About />} />
-        <Route path="https://elmahdik.github.io/butterfly/shop" element={<Shop />} />
+        <Route path="/butterfly/" element={<Home />} />
+        <Route path="/butterfly/about" element={<About />} />
+        <Route path="/butterfly/shop" element={<Shop />} />
       </Routes>
     </Router>
   );
