@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Monarque",
+        "image": "monarch.jpg",
+        "description": "Le papillon monarque est l'un des papillons les plus reconnaissables et les mieux étudiés de la planète. Ses ailes orange sont parsemées de lignes noires et bordées de points blancs. La chenille se nourrit de l'asclépiade, ce qui la rend toxique pour les prédateurs. Le papillon adulte peut être trouvé dans une variété d'habitats, des forêts aux prairies en passant par les jardins. Les monarques sont connus pour leurs longues migrations, qui peuvent couvrir des milliers de kilomètres. Ils se trouvent à travers l'Amérique du Nord et du Sud, ainsi qu'en Australie, en Nouvelle-Zélande et dans d'autres parties du monde."
+    },
+    {
+        "name": "Queue-de-swallowtail",
+        "image": "swallowtail.jpg",
+        "description": "Le papillon queue-de-swallowtail est un grand papillon coloré que l'on trouve dans de nombreuses régions du monde. Il est connu pour ses extensions en forme de queue sur ses ailes postérieures, ce qui lui donne son nom. La chenille se nourrit de diverses plantes, y compris des agrumes, du fenouil et du persil. Le papillon adulte peut être trouvé dans une variété d'habitats, des forêts aux prairies en passant par les jardins. Les queues-de-swallowtail sont connues pour leur vol gracieux et leurs couleurs vives, allant du jaune et noir au bleu et rouge. On les trouve en Amérique du Nord et du Sud, ainsi qu'en Europe, en Asie et en Afrique."
+    },
+    {
+        "name": "Morpho bleu",
+        "image": "blue_morpho.jpg",
+        "description": "Le papillon morpho bleu est un grand papillon irisé que l'on trouve dans les forêts tropicales d'Amérique centrale et du Sud. Ses ailes sont d'un bleu brillant, avec des bords noirs et des taches blanches. La chenille se nourrit de diverses plantes, notamment des bananes, des goyaves et des passiflores. Le papillon adulte peut être trouvé dans la canopée de la forêt tropicale, où il se nourrit de nectar de fleurs. Les morphos bleus sont connus pour leur apparence frappante et leur vol rapide. On les trouve à travers l'Amérique centrale et du Sud, ainsi qu'au Mexique et dans les Caraïbes."
+    },
+    {
+        "name": "Dame peinte",
+        "image": "painted_lady.jpg",
+        "description": "Le papillon dame peinte est un papillon de taille moyenne que l'on trouve dans de nombreuses régions du monde. Il est connu pour ses ailes orange vif, parsemées de lignes noires et bordées de taches blanches. La chenille se nourrit de diverses plantes, notamment des chardons, des mauves et des roses trémières. Le papillon adulte peut être trouvé dans une variété d'habitats, des prairies aux jardins en passant par les zones urbaines. Les dames peintes sont connues pour leurs longues migrations, qui peuvent couvrir des milliers de kilomètres. Elles se trouvent à travers l'Amérique du Nord et du Sud, ainsi qu'en Europe, en Asie et en Afrique."
+    },
+    {
+        "name": "Tiger Swallowtail",
+        "image": "tiger_swallowtail.jpg",
+        "description": "Le papillon tiger swallowtail est un grand papillon coloré que l'on trouve dans de nombreuses régions du monde. Il est connu pour ses bandes jaunes et noires distinctives, ce qui lui donne son nom. La chenille se nourrit de diverses plantes, y compris des cerisiers, des frênes et des saules. Le papillon adulte peut être trouvé dans une variété d'habitats, des forêts aux prairies en passant par les jardins. Les tiger swallowtails sont connus pour leur vol gracieux et leurs couleurs vives, qui peuvent varier du jaune et noir au bleu et rouge. On les trouve en Amérique du Nord et du Sud, ainsi qu'en Europe, en Asie et en Afrique."
+    },
+    {
+        "name": "Papilusion",
+        "image": "papilusion.jpg",
+        "description": "Le Papilusion est un papillon rare, célèbre pour ses ailes translucides qui créent des illusions visuelles fascinantes. Il vit principalement dans les forêts tropicales et est connu pour sa capacité à changer de couleur en fonction de la lumière."
+    },
+    {
+        "name": "Piéride du chou",
+        "image": "cwb.jpg",
+        "description": "Le piéride du chou (Pieris rapae) est un petit papillon de couleur blanche avec des taches noires sur ses ailes avant. Les mâles ont des ailes complètement blanches, tandis que les femelles ont une petite tache noire sur chaque aile avant. Il est souvent vu dans les jardins et les champs, surtout au printemps et en été. Les chenilles de ce papillon se nourrissent principalement des feuilles de plantes de la famille des crucifères, comme les choux. Ce papillon est très commun en Europe, en Asie et en Amérique du Nord."
+    },
+    {
+        "name": "Amiral rouge",
+        "image": "red_admiral.jpg",
+        "description": "L'amiral rouge (Vanessa atalanta) est un papillon aux ailes d'un rouge vif avec des taches noires et blanches. Il est souvent vu dans les jardins et les forêts ouvertes. Les chenilles se nourrissent des orties et d'autres plantes communes. Ce papillon est très répandu en Europe et en Amérique du Nord."
+    },
+    {
+        "name": "Paon du jour",
+        "image": "peacock.jpg",
+        "description": "Le paon du jour (Inachis io) est un grand papillon aux ailes brunes ornées de motifs oculaires colorés. Les ailes arrière sont également dotées de magnifiques motifs qui ressemblent à des yeux de paon. Ce papillon est souvent vu dans les jardins et les bois et se nourrit principalement de prunelles et de raiponces."
+    },
+    {
+        "name": "Bleu commun",
+        "image": "common_blue.jpg",
+        "description": "Le bleu commun (Polyommatus icarus) est un petit papillon aux ailes bleu vif chez les mâles, tandis que les femelles ont des ailes brunes avec des taches bleues. Il est souvent trouvé dans les prairies et les zones ensoleillées. Les chenilles se nourrissent principalement de trèfles."
+    },
+    {
+        "name": "Citron",
+        "image": "brimstone.jpg",
+        "description": "Le citron (Gonepteryx rhamni) est un papillon de couleur jaune vif, souvent observé dès les premiers jours du printemps. Il a une forme distinctive en V sur les ailes. Les chenilles se nourrissent principalement des feuilles de buis."
+    },
+    {
+        "name": "Petite tortue",
+        "image": "small_tortoiseshell.jpg",
+        "description": "La petite tortue (Aglais urticae) est un papillon aux ailes orange vif avec des taches noires et des bordures bleues. Très courant en Europe, il est souvent trouvé dans les jardins et les bois. Les chenilles se nourrissent des orties."
+    }
+]

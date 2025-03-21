@@ -10,7 +10,7 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
   };
 
   return (
-    <input type="search" placeholder="Search..." onChange={handleChange} />
+    <input type="search" placeholder="Rechercher..." onChange={handleChange} />
   );
 };
 

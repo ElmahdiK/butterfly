@@ -72,8 +72,9 @@ Le projet est organisé comme suit :
 ```bash
 /butterfly
 │
+├── /public             # Images, animations, etc.
+│
 ├── /src
-│   ├── /assets         # Images, animations, etc.
 │   ├── /components     # Composants React
 │   ├── /styles         # Fichiers SCSS
 │   ├── App.tsx         # Composant principal de l'application
