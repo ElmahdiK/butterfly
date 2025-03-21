@@ -4,7 +4,7 @@ header {
   margin-bottom: 0px;
   border-radius: 1px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   a {
     color: #fff;
@@ -14,5 +14,11 @@ header {
     &:hover {
       text-decoration: none;
     }
+  }
+}
+
+@media (width <= 700px) {
+  header {
+    justify-content: center;
   }
 }
