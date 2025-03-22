@@ -1,14 +1,14 @@
 [
     {
         "name": "Accueil",
-        "path": "/home"
+        "path": "home"
     },
     {
         "name": "À propos",
-        "path": "/about"
+        "path": "about"
     },
     {
         "name": "Boutique",
-        "path": "/shop"
+        "path": "shop"
     }
 ]
