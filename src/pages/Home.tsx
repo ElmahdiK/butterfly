@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Butterfly from "../components/Butterfly";
 import Header from "../components/Header";
-import butterfliesData from "../../public/data/butterflies.json";
+import butterfliesData from "../assets/data/butterflies.json";
 import "../styles/App.scss";
 
 const Home = () => {

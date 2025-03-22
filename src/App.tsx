@@ -9,6 +9,7 @@ import {
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import About from "./pages/About";
+import NotFound from "./pages/NotFound";
 import Nav from "./components/Nav";
 
 // https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="shop" element={<Shop />} />
+      <Route path="*" element={<NotFound />} />
     </Route>
   )
 );

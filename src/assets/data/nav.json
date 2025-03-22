@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Accueil",
+        "path": "./"
+    },
+    {
+        "name": "À propos",
+        "path": "about"
+    },
+    {
+        "name": "Boutique",
+        "path": "shop"
+    }
+]

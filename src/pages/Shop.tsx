@@ -1,5 +1,5 @@
 import ProductLink from "../components/ProductLink"; // Adjust the path as needed
-import products from "../../public/data/products.json";
+import products from "../assets/data/products.json";
 
 import "../assets/styles/shop.scss";
 
