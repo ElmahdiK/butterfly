@@ -22,7 +22,9 @@ const router = createBrowserRouter([
       { path: "/*", element: <NotFound /> },
     ],
   },
-]);
+], {
+  basename: `https://elmahdik.github.io/butterfly`, // Cela ajoute le chemin de base correspondant à ton repo GitHub Pages
+});
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
