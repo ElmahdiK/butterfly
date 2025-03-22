@@ -1,36 +1,32 @@
 import "./styles/App.scss";
 
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import About from "./pages/About";
+import Nav from "./components/Nav";
+
+// https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Nav />}>
+      <Route index element={<Home />} />
+      <Route path="about" element={<About />} />
+      <Route path="shop" element={<Shop />} />
+    </Route>
+  )
+);
 
 const App = () => {
-  const LINKS = [
-    { name: "Accueil", path: "/butterfly/" },
-    { name: "À propos", path: "/butterfly/about" },
-    { name: "Boutique", path: "/butterfly/shop" },
-  ];
-
   return (
-    <Router>
-      <nav>
-        <p>Butterfly</p>
-        <ul>
-          {LINKS.map((link) => (
-            <li key={link.path}>
-              <Link to={link.path}>{link.name}</Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-
-      <Routes>
-        <Route path="/butterfly/" element={<Home />} />
-        <Route path="/butterfly/about" element={<About />} />
-        <Route path="/butterfly/shop" element={<Shop />} />
-      </Routes>
-    </Router>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 };
 
