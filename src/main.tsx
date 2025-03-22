@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 //
 // https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e
 // https://www.youtube.com/watch?v=SOwKHCwfj08&ab_channel=Hackmyhead
+// https://www.youtube.com/watch?v=7wzuievFjrk&ab_channel=CodeWithAjesh
 const router = createBrowserRouter([
   {
     path: "/",
