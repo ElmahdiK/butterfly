@@ -1,6 +1,6 @@
 import "./style.scss";
 import { useState } from "react";
-import infoButterflies from "../../../public/data/infoButterflies.json";
+import infoButterflies from "../../assets/data/infoButterflies.json";
 
 const InfoBar = () => {
   const [randomIndex, setRandomIndex] = useState(0);

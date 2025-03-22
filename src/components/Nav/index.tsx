@@ -1,13 +1,8 @@
 import "./style.scss";
 import { Outlet, Link } from "react-router-dom";
+import LINKS from "../../assets/data/nav.json";
 
 export default function Nav() {
-  const LINKS = [
-    { name: "Accueil", path: "./" },
-    { name: "À propos", path: "about" },
-    { name: "Boutique", path: "shop" },
-  ];
-
   return (
     <>
       <nav>
