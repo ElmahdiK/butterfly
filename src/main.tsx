@@ -8,7 +8,7 @@ import Shop from "./pages/Shop";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
-// 
+//
 // https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e
 // https://www.youtube.com/watch?v=SOwKHCwfj08&ab_channel=Hackmyhead
 const router = createBrowserRouter([
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      { path: "/", element: <Home /> },
+      { path: "/", element: <Home />, index: true },
       { path: "/about", element: <About /> },
       { path: "/shop", element: <Shop /> },
       { path: "/*", element: <NotFound /> },
