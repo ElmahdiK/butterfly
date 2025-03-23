@@ -1,10 +1,11 @@
 import "./style.scss";
 
-interface ButterflyProps {
+type ButterflyProps = {
   name: string;
   img: string;
-}
-const Butterfly = (props: ButterflyProps) => {
+};
+
+export default function Butterfly(props: ButterflyProps) {
   const { name, img } = props;
 
   // const handleClick = () => {
@@ -19,6 +20,4 @@ const Butterfly = (props: ButterflyProps) => {
       {/* <button onClick={handleClick}>à propos</button> */}
     </div>
   );
-};
-
-export default Butterfly;
+}
