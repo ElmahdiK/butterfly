@@ -8,17 +8,16 @@ const InfoBar = () => {
   const handleClick = () => {
     setRandomIndex(Math.floor(Math.random() * infoButterflies.info.length));
   };
+
   return (
     <div id="div-info-bar">
-      <div>
-        <span>Le saviez-vous ? 🦋</span>
-        <button onClick={handleClick}>Afficher une autre info</button>
-      </div>
+      <span>Le saviez-vous ? 🦋</span>
       <p
         dangerouslySetInnerHTML={{
           __html: "« " + infoButterflies.info[randomIndex] + " »",
         }}
       />
+      <button onClick={handleClick}>autre info</button>
     </div>
   );
 };
