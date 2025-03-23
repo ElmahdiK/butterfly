@@ -15,7 +15,7 @@ const Butterfly = (props: ButterflyProps) => {
 
   return (
     <div className="div-butterfly">
-      <img src={`./img/butterflies/${img}`} alt={name} />
+      <img src={`/butterfly/img/butterflies/${img}`} alt={name} />
       <p>{name}</p>
       <button onClick={handleClick}>à propos</button>
     </div>

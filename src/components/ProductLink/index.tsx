@@ -14,7 +14,7 @@ const ProductList = (props: ProductListProps) => {
   return (
     <div className="product-item">
       <a href={product.url} target="_blank" rel="noopener noreferrer">
-        <img src={`./img/products/${product.image}`} alt={product.name} />
+        <img src={`/butterfly/img/products/${product.image}`} alt={product.name} />
       </a>
       <p>{product.name}</p>
       <span>{product.price} €</span>
