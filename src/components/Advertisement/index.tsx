@@ -7,7 +7,7 @@ export default function Advertisement() {
       <div id="div-advertisement">
         <p>Nouveau !</p>
         <img src="/butterfly/img/ads/butterfly.gif" alt="advertisement" />
-        <p>Publier votre annonce ici !</p>
+        <p>Publiez votre annonce ici !</p>
       </div>
     </Link>
   );
