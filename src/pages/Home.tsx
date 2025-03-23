@@ -39,12 +39,7 @@ const Home = () => {
       <main id="main-home">
         {/* filteredButterflies.slice(0, 4).map */}
         {filteredButterflies.map((butterfly, index) => (
-          <Butterfly
-            key={index}
-            name={butterfly.name}
-            img={butterfly.image}
-            audio={1}
-          />
+          <Butterfly key={index} name={butterfly.name} img={butterfly.image} />
         ))}
       </main>
     </>
