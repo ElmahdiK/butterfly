@@ -12,20 +12,24 @@ import NotFound from "./pages/NotFound";
 // https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e
 // https://www.youtube.com/watch?v=SOwKHCwfj08&ab_channel=Hackmyhead
 // https://www.youtube.com/watch?v=7wzuievFjrk&ab_channel=CodeWithAjesh
-const router = createBrowserRouter([
+// https://www.youtube.com/watch?v=fuGu-Ponjf8&ab_channel=ToThePointCode
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        { path: "/", element: <Home /> },
+        { path: "/about", element: <About /> },
+        { path: "/shop", element: <Shop /> },
+        { path: "/*", element: <NotFound /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-    children: [
-      { path: "/", element: <Home />, index: true },
-      { path: "/about", element: <About /> },
-      { path: "/shop", element: <Shop /> },
-      { path: "/*", element: <NotFound /> },
-    ],
-  },
-], {
-  basename: `/butterfly`, // Cela ajoute le chemin de base correspondant à ton repo GitHub Pages
-});
+    basename: `/butterfly`,
+  }
+);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
