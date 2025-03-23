@@ -6,7 +6,9 @@ export default function Nav() {
   return (
     <>
       <nav>
-        <p>Butterfly</p>
+        <p>
+          <Link to={`/`}>Butterfly</Link>
+        </p>
         <ul>
           {LINKS.map((link) => (
             <li key={link.path}>
