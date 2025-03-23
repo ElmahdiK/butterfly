@@ -1,8 +1,25 @@
-main {
+#main-app {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 20px;
+  // margin: 20px;
+  height: 90vh;
+
+  aside {
+    // background-color: #fff;
+    width: 300px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    height: 90vh;
+  }
+
+  section {
+    flex: 1;
+    height: 90vh;
+    overflow: scroll;
+  }
 
   .no-results {
     color: #eee;

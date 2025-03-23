@@ -1,0 +1,9 @@
+#main-home {
+  // display: flex;
+  // flex-direction: column;
+  // flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1px;
+  padding: 1px;
+}

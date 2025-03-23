@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Butterfly from "../components/Butterfly";
 import Header from "../components/Header";
 import butterfliesData from "../assets/data/butterflies.json";
-import "../styles/App.scss";
+import "../assets/styles/home.scss";
 
 const Home = () => {
   const [butterflies, setButterflies] = useState(butterfliesData);
@@ -33,7 +33,7 @@ const Home = () => {
     <>
       {/* <Header title="Butterfly" onSearch={handleSearch} /> */}
       <Header onSearch={handleSearch} />
-      <main>
+      <main id="main-home">
         {filteredButterflies.map((butterfly, index) => (
           <Butterfly
             key={index}
