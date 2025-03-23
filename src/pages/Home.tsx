@@ -3,6 +3,7 @@ import Butterfly from "../components/Butterfly";
 import Header from "../components/Header";
 import butterfliesData from "../assets/data/butterflies.json";
 import "../assets/styles/home.scss";
+import NoResults from "../components/NoResults";
 
 const Home = () => {
   const [butterflies, setButterflies] = useState(butterfliesData);
@@ -32,7 +33,11 @@ const Home = () => {
   return (
     <>
       <Header onSearch={handleSearch} />
+      {filteredButterflies.length === 0 && (
+        <NoResults searchText={searchText} />
+      )}
       <main id="main-home">
+        {/* filteredButterflies.slice(0, 4).map */}
         {filteredButterflies.map((butterfly, index) => (
           <Butterfly
             key={index}
@@ -41,12 +46,6 @@ const Home = () => {
             audio={1}
           />
         ))}
-        {filteredButterflies.length === 0 && (
-          <p className="no-results">
-            Aucun résultat trouvé pour " {searchText} "{" "}
-            <img src="./img/noresults.jpg" />
-          </p>
-        )}
       </main>
     </>
   );

@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   // margin: 20px;
-  height: 90vh;
+  height: 85vh;
 
   aside {
     // background-color: #fff;
@@ -12,28 +12,13 @@
     display: flex;
     justify-content: center;
     // align-items: center;
-    height: 90vh;
+    height: 85vh;
   }
 
   section {
     flex: 1;
-    height: 90vh;
+    height: 85vh;
     overflow: scroll;
-  }
-
-  .no-results {
-    color: #eee;
-    font-size: 36px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    img {
-      border: 4px solid #fff;
-      height: 200px;
-      margin-top: 40px;
-      object-fit: contain;
-    }
   }
 }
 
