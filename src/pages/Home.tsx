@@ -31,7 +31,6 @@ const Home = () => {
 
   return (
     <>
-      {/* <Header title="Butterfly" onSearch={handleSearch} /> */}
       <Header onSearch={handleSearch} />
       <main id="main-home">
         {filteredButterflies.map((butterfly, index) => (
