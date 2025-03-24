@@ -36,7 +36,8 @@ export default function Home() {
       {filteredButterflies.length === 0 && (
         <NoResults searchText={searchText} />
       )}
-      <ButterflyList filteredButterflies={filteredButterflies.slice(0, 4)} />
+      {/* <ButterflyList filteredButterflies={filteredButterflies.slice(0, 4)} /> */}
+      <ButterflyList filteredButterflies={filteredButterflies} />
     </>
   );
 }
