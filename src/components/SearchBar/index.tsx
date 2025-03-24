@@ -17,21 +17,22 @@ export default function SearchBar() {
     setSearchTerm(e.target.value);
   };
 
-  const handleClick = () => {
-    // console.log(searchTerm);
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    if (searchTerm.trim() === "") return;
     navigate(`/Butterfly?name=${searchTerm}`);
   };
 
   return (
-    <div id="div-search">
+    <form id="div-search" onSubmit={handleSubmit}>
       <input
         type="search"
         placeholder="Rechercher..."
         onChange={handleChange}
       />
-      <button onClick={handleClick}>
+      <button type="submit">
         <AiOutlineSearch />
       </button>
-    </div>
+    </form>
   );
 }

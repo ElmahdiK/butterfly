@@ -1,4 +1,5 @@
 import "./style.scss";
+import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 
 type PaginationProps = {
   currentPage: number;
@@ -19,11 +20,15 @@ export default function Pagination(props: PaginationProps) {
 
   return (
     <div id="div-pagination">
-      <button onClick={handleClickPrev}>Prev</button>
+      <button onClick={handleClickPrev}>
+        <GrLinkPrevious />
+      </button>
       <p>
         {currentPage}/{nbPages}
       </p>
-      <button onClick={handleClickNext}>Next</button>
+      <button onClick={handleClickNext}>
+        <GrLinkNext />
+      </button>
     </div>
   );
 }

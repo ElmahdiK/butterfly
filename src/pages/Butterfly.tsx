@@ -1,6 +1,6 @@
 import butterflies from "../assets/data/butterflies.json";
 import "../assets/styles/butterfly.scss";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import NoResults from "../components/NoResults";
 
 export default function Butterfly() {
@@ -14,23 +14,24 @@ export default function Butterfly() {
   );
 
   return (
-    <>
+    <div id="div-butterfly">
+      <Link to="/">Back to list</Link>
       {filteredButterflies.length > 0 ? (
         filteredButterflies.map((butterfly) => {
           return (
-            <div id="div-butterfly" key={butterfly.name}>
+            <>
               <img
                 src={`/butterfly/img/butterflies/${butterfly.image}`}
                 alt={butterfly.name}
               />
               <p id="p-butterfly">{butterfly.name}</p>
               <p>{butterfly.description}</p>
-            </div>
+            </>
           );
         })
       ) : (
         <NoResults searchText={name ?? undefined} />
       )}
-    </>
+    </div>
   );
 }

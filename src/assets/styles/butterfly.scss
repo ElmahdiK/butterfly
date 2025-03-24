@@ -11,6 +11,25 @@
   justify-content: center;
   align-items: center;
 
+  a {
+    &:hover {
+      background-color: #303f9f;
+      color: #fff;
+    }
+    background-color: #fff;
+    color: #303f9f;
+    border: 1px solid #fff;
+    font-size: 12px;
+    width: 220px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-self: flex-end;
+    text-decoration: none !important;
+  }
+
   img {
     border-bottom: 1px solid #fff;
     height: 200px;
