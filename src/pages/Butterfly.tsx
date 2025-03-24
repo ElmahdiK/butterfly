@@ -15,7 +15,7 @@ export default function Butterfly() {
 
   return (
     <div id="div-butterfly">
-      <Link to="/">Back to list</Link>
+      <Link to="/">Retour à l'accueil</Link>
       {filteredButterflies.length > 0 ? (
         filteredButterflies.map((butterfly) => {
           return (
