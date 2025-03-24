@@ -16,3 +16,14 @@
     }
   }
 }
+
+@media (width <= 700px) {
+  #ul-links {
+    li {
+      a {
+        font-size: 12px;
+        padding: 10px;
+      }
+    }
+  }
+}

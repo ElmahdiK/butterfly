@@ -42,10 +42,9 @@
 }
 
 @media (width <= 700px) {
-  h1 {
-    text-align: center;
-  }
-  p {
-    width: 80% !important;
+  .about {
+    p {
+      width: fit-content;
+    }
   }
 }

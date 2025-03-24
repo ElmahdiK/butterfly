@@ -23,5 +23,10 @@ nav {
 @media (width <= 700px) {
   nav {
     flex-direction: column;
+    height: 25vh;
+    padding: 20px 10px;
+    div {
+      flex-direction: column;
+    }
   }
 }

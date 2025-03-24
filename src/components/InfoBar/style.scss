@@ -38,11 +38,12 @@
 
 @media (width <= 700px) {
   #div-info-bar {
-    div {
-      flex-direction: column;
-      button {
-        align-self: center;
-      }
+    flex-direction: column;
+
+    span,
+    p,
+    button {
+      margin: 10px;
     }
   }
 }

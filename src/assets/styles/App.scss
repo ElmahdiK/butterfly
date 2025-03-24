@@ -6,12 +6,9 @@
   height: 85vh;
 
   aside {
-    // background-color: #fff;
-    width: 300px;
-    padding: 0px 20px;
+    width: 200px;
     display: flex;
     justify-content: center;
-    // align-items: center;
     height: 85vh;
   }
 
@@ -23,7 +20,16 @@
 }
 
 @media (width <= 700px) {
-  main {
+  #main-app {
     justify-content: center;
+
+    height: 70vh;
+    aside,
+    section {
+      height: 70vh;
+    }
+    aside {
+      display: none;
+    }
   }
 }

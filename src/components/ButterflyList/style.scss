@@ -1,5 +1,12 @@
 #main-home {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
+  padding: 30px;
+}
+
+@media (width <= 700px) {
+  #main-home {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
