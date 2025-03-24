@@ -20,7 +20,7 @@ export default function Product(props: Product) {
           src={`/butterfly/images/products/${product.image}`}
           alt={product.name}
         />
-        <p>{product.price} €</p>
+        <p className="p-price">{product.price.toFixed(2)} €</p>
       </div>
     </a>
   );

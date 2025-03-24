@@ -1,5 +1,10 @@
 .product-item {
-  background-color: #eee;
+  &:hover {
+    background-color: dodgerblue;
+  }
+  border: 1px solid dodgerblue;
+  box-shadow: 0px 2px 1px #222;
+  flex: 1;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -7,18 +12,25 @@
   text-align: center;
 
   img {
-    background-color: #fff;
-    box-shadow: 0px 3px 4px #ccc;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 1px #222;
+    padding: 4px;
+    max-width: 200px;
+    max-height: 120px;
+    flex: 1;
     object-fit: contain;
   }
 
   p {
-    color: #000;
+    color: #ddd;
     font-size: 14px;
     padding: 10px;
     text-transform: uppercase;
+
+    &.p-price {
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+    }
   }
 }
