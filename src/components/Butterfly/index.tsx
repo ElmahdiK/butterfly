@@ -17,7 +17,7 @@ export default function Butterfly(props: ButterflyProps) {
   return (
     <div className="div-butterfly">
       <Link to={`/Butterfly?name=${name}`}>
-        <img src={`/butterfly/img/butterflies/${img}`} alt={name} />
+        <img src={`/butterfly/images/butterflies/${img}`} alt={name} />
         <p>{name}</p>
         {/* <button onClick={handleClick}>à propos</button> */}
       </Link>

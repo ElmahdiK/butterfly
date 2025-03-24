@@ -1,12 +1,12 @@
 import "./style.scss";
 import { useState } from "react";
-import infoButterflies from "../../assets/data/infoButterflies.json";
+import butterfliesInfos from "../../assets/data/butterfliesInfos.json";
 
 export default function InfoBar() {
   const [randomIndex, setRandomIndex] = useState(0);
 
   const handleClick = () => {
-    setRandomIndex(Math.floor(Math.random() * infoButterflies.info.length));
+    setRandomIndex(Math.floor(Math.random() * butterfliesInfos.info.length));
   };
 
   return (
@@ -14,7 +14,7 @@ export default function InfoBar() {
       <span>Le saviez-vous ? 🦋</span>
       <p
         dangerouslySetInnerHTML={{
-          __html: "« " + infoButterflies.info[randomIndex] + " »",
+          __html: "« " + butterfliesInfos.info[randomIndex] + " »",
         }}
       />
       <button onClick={handleClick}>autre info</button>

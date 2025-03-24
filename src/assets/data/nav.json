@@ -10,5 +10,9 @@
     {
         "name": "Boutique",
         "path": "/shop"
+    },
+    {
+        "name": "Contact",
+        "path": "/contact"
     }
 ]

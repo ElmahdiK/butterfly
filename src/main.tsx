@@ -1,11 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./styles/index.scss";
+import "./assets/styles/main.scss";
 import App from "./App.tsx";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import About from "./pages/About";
+import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound";
 import Butterfly from "./pages/Butterfly.tsx";
 
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       children: [
         { path: "/", element: <Home /> },
         { path: "/about", element: <About /> },
+        { path: "/contact", element: <Contact /> },
         { path: "/shop", element: <Shop /> },
         { path: "/butterfly", element: <Butterfly /> },
         { path: "/*", element: <NotFound /> },

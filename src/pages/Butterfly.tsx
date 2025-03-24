@@ -21,7 +21,7 @@ export default function Butterfly() {
           return (
             <>
               <img
-                src={`/butterfly/img/butterflies/${butterfly.image}`}
+                src={`/butterfly/images/butterflies/${butterfly.image}`}
                 alt={butterfly.name}
               />
               <p id="p-butterfly">{butterfly.name}</p>
