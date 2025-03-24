@@ -1,13 +1,17 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
 import LINKS from "../../assets/data/nav.json";
+import Donate from "../Donate";
 
 export default function Nav() {
   return (
     <nav>
-      <p>
-        <Link to={`/`}>Butterfly</Link>
-      </p>
+      <div>
+        <Link id="a-logo" to={`/`}>
+          Butterfly
+        </Link>
+        <Donate />
+      </div>
       <ul>
         {LINKS.map((link) => (
           <li key={link.path}>
