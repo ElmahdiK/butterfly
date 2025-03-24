@@ -1,6 +1,6 @@
 import "../assets/styles/about.scss";
 
-const About = () => {
+export default function About() {
   return (
     <div className="about">
       <h1>Bienvenue sur Butterfly ! 🦋</h1>
@@ -32,6 +32,4 @@ const About = () => {
       </a>
     </div>
   );
-};
-
-export default About;
+}

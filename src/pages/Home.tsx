@@ -5,7 +5,7 @@ import butterfliesData from "../assets/data/butterflies.json";
 import "../assets/styles/home.scss";
 import NoResults from "../components/NoResults";
 
-const Home = () => {
+export default function Home() {
   const [butterflies, setButterflies] = useState(butterfliesData);
   const [filteredButterflies, setFilteredButterflies] =
     useState(butterfliesData);
@@ -44,6 +44,4 @@ const Home = () => {
       </main>
     </>
   );
-};
-
-export default Home;
+}
