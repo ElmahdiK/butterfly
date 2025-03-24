@@ -1,6 +1,13 @@
-input {
-  background: rgba(0, 0, 0, 0.1);
-  border: 1px solid #2196f3;
-  color: #fff;
-  padding: 10px 20px;
+#div-search {
+  input {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #2196f3;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  button {
+    padding: 10px 20px;
+    background: #2196f3;
+    color: #fff;
+  }
 }
