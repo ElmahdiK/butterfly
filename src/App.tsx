@@ -10,13 +10,13 @@ export default function App() {
       <Nav />
       <main id="main-app">
         <aside>
-          <Advertisement />
+          <Advertisement imgSrc="/butterfly/img/ads/butterfly.gif" />
         </aside>
         <section>
           <Outlet />
         </section>
         <aside>
-          <Advertisement />
+          <Advertisement imgSrc="/butterfly/img/ads/butterfly.jpg" />
         </aside>
       </main>
       <Footer />

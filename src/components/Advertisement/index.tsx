@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 import "./style.scss";
 
-export default function Advertisement() {
+type Advertisement = {
+  imgSrc: string;
+};
+export default function Advertisement(props : Advertisement) {
+  const { imgSrc } = props;
+
   return (
     <Link to="https://elmahdik.github.io/fr/#contact">
       <div id="div-advertisement">
         <p>Nouveau !</p>
-        <img src="/butterfly/img/ads/butterfly.gif" alt="advertisement" />
+        <img src={imgSrc} alt="advertisement" />
         <p>Publiez votre annonce ici !</p>
       </div>
     </Link>
