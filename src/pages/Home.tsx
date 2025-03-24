@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import Butterfly from "../components/Butterfly";
 import Header from "../components/Header";
 import butterfliesData from "../assets/data/butterflies.json";
 import "../assets/styles/home.scss";
 import NoResults from "../components/NoResults";
+import ButterflyList from "../components/ButterflyList";
 
 export default function Home() {
   const [butterflies, setButterflies] = useState(butterfliesData);
@@ -36,12 +36,7 @@ export default function Home() {
       {filteredButterflies.length === 0 && (
         <NoResults searchText={searchText} />
       )}
-      <main id="main-home">
-        {/* filteredButterflies.slice(0, 4).map */}
-        {filteredButterflies.map((butterfly, index) => (
-          <Butterfly key={index} name={butterfly.name} img={butterfly.image} />
-        ))}
-      </main>
+      <ButterflyList filteredButterflies={filteredButterflies.slice(0, 4)} />
     </>
   );
 }
