@@ -9,7 +9,7 @@ export default function NoResults(props: NoResultsProps) {
   return (
     <div className="div-no-results">
       <p>
-        Aucun résultat trouvé pour " <span>{searchText}</span> "{" "}
+        Aucun résultat trouvé pour " <span>{searchText}</span> "
       </p>
       <img src="/butterfly/img/noresults.jpg" />
     </div>
