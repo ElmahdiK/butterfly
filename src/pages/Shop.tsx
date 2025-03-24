@@ -3,7 +3,7 @@ import products from "../assets/data/products.json";
 
 import "../assets/styles/shop.scss";
 
-const Shop = () => {
+export default function Shop() {
   return (
     <div className="shop">
       <h1>Top produits recommandés</h1>
@@ -14,6 +14,4 @@ const Shop = () => {
       </div>
     </div>
   );
-};
-
-export default Shop;
+}

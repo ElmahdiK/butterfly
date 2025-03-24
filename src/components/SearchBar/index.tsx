@@ -1,10 +1,12 @@
 import "./style.scss";
 
-interface SearchBarProps {
+type SearchBarProps = {
   onSearch: (searchTerm: string) => void;
-}
+};
 
-const SearchBar = ({ onSearch }: SearchBarProps) => {
+export default function SearchBar(props: SearchBarProps) {
+  const { onSearch } = props;
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     onSearch(e.target.value);
   };
@@ -12,6 +14,4 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
   return (
     <input type="search" placeholder="Rechercher..." onChange={handleChange} />
   );
-};
-
-export default SearchBar;
+}

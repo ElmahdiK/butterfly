@@ -2,7 +2,7 @@ import "./style.scss";
 import { useState } from "react";
 import infoButterflies from "../../assets/data/infoButterflies.json";
 
-const InfoBar = () => {
+export default function InfoBar() {
   const [randomIndex, setRandomIndex] = useState(0);
 
   const handleClick = () => {
@@ -20,6 +20,4 @@ const InfoBar = () => {
       <button onClick={handleClick}>autre info</button>
     </div>
   );
-};
-
-export default InfoBar;
+}

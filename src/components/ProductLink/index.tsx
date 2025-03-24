@@ -1,15 +1,15 @@
 import "./style.scss";
 
-interface ProductListProps {
+type ProductListProps = {
   product: {
     name: string;
     url: string;
     image: string;
     price: number;
   };
-}
+};
 
-const ProductList = (props: ProductListProps) => {
+export default function ProductList(props: ProductListProps) {
   const { product } = props;
   return (
     <a href={product.url} target="_blank" rel="noopener noreferrer">
@@ -23,6 +23,4 @@ const ProductList = (props: ProductListProps) => {
       </div>
     </a>
   );
-};
-
-export default ProductList;
+}
