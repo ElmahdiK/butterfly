@@ -1,17 +1,34 @@
 import "./style.scss";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-type SearchBarProps = {
-  onSearch: (searchTerm: string) => void;
-};
+// type SearchBarProps = {
+//   onSearch: (searchTerm: string) => void;
+// };
 
-export default function SearchBar(props: SearchBarProps) {
-  const { onSearch } = props;
+export default function SearchBar() {
+  //props: SearchBarProps
+  // const { onSearch } = props;
+  const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    onSearch(e.target.value);
+    setSearchTerm(e.target.value);
+  };
+
+  const handleClick = () => {
+    // console.log(searchTerm);
+    navigate(`/Butterfly?name=${searchTerm}`);
   };
 
   return (
-    <input type="search" placeholder="Rechercher..." onChange={handleChange} />
+    <div id="div-search">
+      <input
+        type="search"
+        placeholder="Rechercher..."
+        onChange={handleChange}
+      />
+      <button onClick={handleClick}>Rechercher</button>
+    </div>
   );
 }

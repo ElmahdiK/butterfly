@@ -10,31 +10,12 @@ nav {
   div {
     display: flex;
     align-items: center;
-    
+
     #a-logo {
       color: #fff;
       font-size: 32px;
       margin: 0px 20px;
       text-decoration: underline;
-    }
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-    li {
-      a {
-        &:hover {
-          color: #fff;
-        }
-        display: block;
-        color: dodgerblue;
-        font-size: 14px;
-        padding: 20px;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-decoration: none !important;
-      }
     }
   }
 }

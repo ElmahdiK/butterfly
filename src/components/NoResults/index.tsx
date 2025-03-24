@@ -1,7 +1,7 @@
 import "./style.scss";
 
 type NoResultsProps = {
-  searchText: string;
+  searchText?: string;
 };
 
 export default function NoResults(props: NoResultsProps) {

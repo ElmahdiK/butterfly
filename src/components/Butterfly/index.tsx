@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 type ButterflyProps = {
@@ -15,9 +16,11 @@ export default function Butterfly(props: ButterflyProps) {
 
   return (
     <div className="div-butterfly">
-      <img src={`/butterfly/img/butterflies/${img}`} alt={name} />
-      <p>{name}</p>
-      {/* <button onClick={handleClick}>à propos</button> */}
+      <Link to={`/Butterfly?name=${name}`}>
+        <img src={`/butterfly/img/butterflies/${img}`} alt={name} />
+        <p>{name}</p>
+        {/* <button onClick={handleClick}>à propos</button> */}
+      </Link>
     </div>
   );
 }
