@@ -1,0 +1,52 @@
+.contact {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: #eee;
+    margin-bottom: 40px;
+  }
+
+  p {
+    color: #ccc;
+    font-size: 18px;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    li {
+      padding-bottom: 10px;
+
+      a {
+        &:hover {
+          background-color: #303f9f;
+          color: #fff;
+          text-decoration: none;
+        }
+        background-color: #fff;
+        border: 1px solid #fff;
+        color: #303f9f;
+        font-weight: bold;
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+
+@media (width <= 1500px) {
+  .contact {
+    p {
+      width: 100%;
+    }
+  }
+}

@@ -17,7 +17,7 @@ export default function Product(props: Product) {
       <div className="product-item">
         <p>{product.name}</p>
         <img
-          src={`/butterfly/img/products/${product.image}`}
+          src={`/butterfly/images/products/${product.image}`}
           alt={product.name}
         />
         <p>{product.price} €</p>
