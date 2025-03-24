@@ -1,0 +1,23 @@
+#div-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid dodgerblue;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: fit-content;
+  p {
+    color: #eee;
+    padding: 8px;
+  }
+  button {
+    &:hover {
+      background-color: transparent;
+    }
+    display: flex;
+    background-color: dodgerblue;
+    color: #eee;
+    padding: 12px 20px;
+    vertical-align: top;
+  }
+}

@@ -1,6 +1,7 @@
 import "./style.scss";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { AiOutlineSearch } from "react-icons/ai";
 
 // type SearchBarProps = {
 //   onSearch: (searchTerm: string) => void;
@@ -28,7 +29,9 @@ export default function SearchBar() {
         placeholder="Rechercher..."
         onChange={handleChange}
       />
-      <button onClick={handleClick}>Rechercher</button>
+      <button onClick={handleClick}>
+        <AiOutlineSearch />
+      </button>
     </div>
   );
 }
