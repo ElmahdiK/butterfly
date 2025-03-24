@@ -1,6 +1,6 @@
 import "./style.scss";
 
-type ProductListProps = {
+type Product = {
   product: {
     name: string;
     url: string;
@@ -9,8 +9,9 @@ type ProductListProps = {
   };
 };
 
-export default function ProductList(props: ProductListProps) {
+export default function Product(props: Product) {
   const { product } = props;
+
   return (
     <a href={product.url} target="_blank" rel="noopener noreferrer">
       <div className="product-item">
