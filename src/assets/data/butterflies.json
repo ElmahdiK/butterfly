@@ -5,6 +5,11 @@
         "description": "Le Greta oto, communément appelé le papillon vitrail, est une espèce de papillon de la famille des Nymphalidae que l'on trouve en Amérique centrale et du Sud. Il est célèbre pour ses ailes transparentes, qui sont encadrées de bords orange-brun. Les ailes translucides du papillon lui confèrent une apparence unique et saisissante, car elles laissent passer la lumière, créant un effet similaire à du verre. Les chenilles se nourrissent de certaines espèces de passiflores, et les adultes sont généralement trouvés dans les forêts et les habitats tropicaux, où ils volent gracieusement parmi le feuillage."
     },
     {
+        "name": "Papillon zèbre",
+        "image": "zebra_swallowtail_butterfly.webp",
+        "description": "Le papillon zèbre est un papillon élégant avec des ailes blanches et noires rayées, rappelant les motifs d'un zèbre. Il se trouve principalement en Amérique du Nord, et les chenilles se nourrissent de plantes comme les lilas et les pruniers. Ce papillon est souvent vu volant autour de jardins et de champs ensoleillés."
+    },
+    {
         "name": "Monarque",
         "image": "monarch.webp",
         "description": "Le papillon monarque est l'un des papillons les plus reconnaissables et les mieux étudiés de la planète. Ses ailes orange sont parsemées de lignes noires et bordées de points blancs. La chenille se nourrit de l'asclépiade, ce qui la rend toxique pour les prédateurs. Le papillon adulte peut être trouvé dans une variété d'habitats, des forêts aux prairies en passant par les jardins. Les monarques sont connus pour leurs longues migrations, qui peuvent couvrir des milliers de kilomètres. Ils se trouvent à travers l'Amérique du Nord et du Sud, ainsi qu'en Australie, en Nouvelle-Zélande et dans d'autres parties du monde."
@@ -58,6 +63,51 @@
         "name": "Petite tortue",
         "image": "small_tortoiseshell.webp",
         "description": "La petite tortue (Aglais urticae) est un papillon aux ailes orange vif avec des taches noires et des bordures bleues. Très courant en Europe, il est souvent trouvé dans les jardins et les bois. Les chenilles se nourrissent des orties."
+    },
+    {
+        "name": "Noctuelle de la tomate",
+        "image": "tomato_tiger_moth.webp",
+        "description": "La noctuelle de la tomate est un papillon de nuit avec des ailes orange et noires tachetées. Ce papillon est surtout connu pour ses comportements nocturnes. Il se trouve principalement en Amérique du Nord, dans les jardins et les zones agricoles, où ses chenilles se nourrissent de plantes de la famille des Solanacées."
+    },
+    {
+        "name": "Sylvain Azur",
+        "image": "azure_winged_sylvan.webp",
+        "description": "Le sylvain azur est un petit papillon délicat avec des ailes bleu pâle et des taches noires. Il se trouve principalement en Europe, dans les forêts et les prairies. Les chenilles se nourrissent principalement de plantes telles que les bruyères et les trèfles. Ce papillon est un symbole de la nature sauvage."
+    },
+    {
+        "name": "Vanessa de la cardère",
+        "image": "carder_comma_butterfly.webp",
+        "description": "La vanesse de la cardère est un papillon aux ailes orange et brunes, avec une forme en 'V' marquée de blanc sur ses ailes antérieures. Ce papillon est principalement trouvé en Europe, en Asie et en Amérique du Nord. Les chenilles se nourrissent principalement de plantes comme l'ortie et la cardère. Ce papillon est souvent observé dans les zones boisées et les jardins."
+    },
+    {
+        "name": "Petit mars changeant",
+        "image": "small_wood_white.webp",
+        "description": "Le petit mars changeant est un papillon discret avec des ailes blanches marquées de petites taches noires. Il se trouve principalement en Europe et en Asie, dans les prairies et les lisières de forêt. Les chenilles se nourrissent de plantes comme le cresson et les crucifères. Il est souvent vu en train de se poser sur des fleurs ou des feuilles."
+    },
+    {
+        "name": "Hespérie du chiendent",
+        "image": "grass_skipper_butterfly.webp",
+        "description": "L'hespérie du chiendent est un petit papillon brun avec des marques jaunes, généralement trouvé dans les prairies et les champs. Il se trouve en Europe, en Asie et en Amérique du Nord. Les chenilles se nourrissent de graminées, notamment le chiendent. Ce papillon est connu pour ses mouvements rapides et ses habitudes discrètes."
+    },
+    {
+        "name": "Brun d'été",
+        "image": "summer_brown_butterfly.webp",
+        "description": "Le brun d'été est un papillon aux ailes brunes avec des motifs discrètes mais marquées. Il se trouve principalement en Europe, en Asie et dans les régions plus tempérées d'Amérique du Nord. Les chenilles se nourrissent de diverses plantes ligneuses, telles que les pruneliers et les cerisiers."
+    },
+    {
+        "name": "Demi-deuil",
+        "image": "mourning_cloak_butterfly.webp",
+        "description": "Le demi-deuil est un grand papillon avec des ailes bordées de marron foncé et une large bande bleu clair. On le trouve en Europe et en Amérique du Nord. Les chenilles se nourrissent de feuillage de peupliers, de saules et de pruniers. Ce papillon est souvent observé au printemps, dès les premières journées ensoleillées."
+    },
+    {
+        "name": "Argus bleu",
+        "image": "blue_argus_butterfly.webp",
+        "description": "L'argus bleu est un petit papillon aux ailes bleues brillantes, avec des taches noires et des bords blancs. Il est surtout présent en Europe, dans les prairies et les montagnes. Les chenilles se nourrissent de trèfle et de plantes de la famille des légumineuses. Ce papillon est souvent un indicateur de la qualité d'un écosystème naturel."
+    },
+    {
+        "name": "Mimosa",
+        "image": "mimosa_butterfly.webp",
+        "description": "Le mimosa est un papillon élégant aux ailes argentées et dorées, qui peut être observé dans les jardins et les zones boisées d'Asie. Les chenilles se nourrissent de diverses légumineuses. Ce papillon est très apprécié pour sa beauté et sa rareté dans certaines régions."
     },
     {
         "name": "Papilusion",

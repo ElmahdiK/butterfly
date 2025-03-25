@@ -11,7 +11,7 @@ export default function NoResults(props: NoResultsProps) {
       <p>
         Aucun résultat trouvé pour " <span>{searchText}</span> "
       </p>
-      <img src="/butterfly/images/noresults.jpg" />
+      <img src="/butterfly/images/noresults.webp" />
     </div>
   );
 }
