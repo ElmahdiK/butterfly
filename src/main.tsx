@@ -26,7 +26,7 @@ const router = createBrowserRouter(
         { path: "/contact", element: <Contact /> },
         { path: "/shop", element: <Shop /> },
         { path: "/butterfly", element: <Butterfly /> },
-        { path: "/tv", element: <TV /> },
+        { path: "/tv", element: <TV youtubeID="XTftxuO5_4s" /> },
         { path: "/*", element: <NotFound /> },
       ],
     },
