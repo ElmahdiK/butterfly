@@ -8,7 +8,7 @@ export default function Advertisement(props : Advertisement) {
   const { imgSrc } = props;
 
   return (
-    <Link to="https://elmahdik.github.io/fr/#contact">
+    <Link to="/contact">
       <div id="div-advertisement">
         <p>Nouveau !</p>
         <img src={imgSrc} alt="advertisement" />

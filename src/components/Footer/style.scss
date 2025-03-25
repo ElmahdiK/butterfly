@@ -1,11 +1,12 @@
 footer {
   border-top: 1px solid dodgerblue;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   p {
     color: #ccc;
     font-size: 12px;
-    padding: 20px;
-    text-align: center;
-    height: 5vh;
   }
 }

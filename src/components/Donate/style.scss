@@ -1,13 +1,16 @@
 #a-donate {
   &:hover {
     background-color: #fff;
+    background: linear-gradient(130deg, #fff, #ccc);
     color: #e65100;
   }
   background-color: #e65100;
+  background: linear-gradient(130deg, #f44336, #ff9800);
   border: 2px solid #e65100;
   color: white;
   font-size: 10px;
   padding: 10px 20px;
+  border-radius: 25px;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;

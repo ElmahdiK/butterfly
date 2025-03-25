@@ -6,6 +6,7 @@ import ButterflyList from "../components/ButterflyList";
 import Pagination from "../components/Pagination";
 import SearchBar from "../components/SearchBar";
 import NoResults from "../components/NoResults";
+import NbResults from "../components/NbResults";
 
 export default function Home() {
   const [butterflies, setButterflies] = useState(butterfliesData);
@@ -41,6 +42,7 @@ export default function Home() {
     <>
       <Header />
       <div id="div-filter">
+        <NbResults nbResults={filteredButterflies.length} />
         <SearchBar onSearch={handleSearch} />
         <Pagination
           currentPage={currentPage}

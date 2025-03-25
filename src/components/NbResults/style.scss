@@ -1,0 +1,16 @@
+#p-nb-results {
+  color: #bbb;
+  font-size: 14px;
+  padding: 0px 10px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 18px;
+    margin-right: 4px;
+    display: inline-block;
+    font-weight: bold;
+    // text-decoration: underline;
+  }
+}

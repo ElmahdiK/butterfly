@@ -4,3 +4,11 @@
   justify-content: flex-end;
   gap: 4px;
 }
+
+@media (width <= 700px) {
+  #div-filter {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
