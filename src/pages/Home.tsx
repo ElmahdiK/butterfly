@@ -18,7 +18,7 @@ export default function Home() {
     setFilteredButterflies(butterfliesData);
   }, []);
 
-  const NB_BUTTERFLIES_PERPAGE = 12;
+  const NB_BUTTERFLIES_PERPAGE = 15;
   const NB_PAGES = Math.ceil(
     filteredButterflies.length / NB_BUTTERFLIES_PERPAGE
   );
@@ -39,16 +39,16 @@ export default function Home() {
   return (
     <>
       <Header />
+      <Pagination
+        currentPage={currentPage}
+        nbPages={NB_PAGES}
+        setCurrentPage={setCurrentPage}
+      />
       <ButterflyList
         filteredButterflies={filteredButterflies.slice(
           NB_BUTTERFLIES_PERPAGE * (currentPage - 1),
           NB_BUTTERFLIES_PERPAGE * currentPage
         )}
-      />
-      <Pagination
-        currentPage={currentPage}
-        nbPages={NB_PAGES}
-        setCurrentPage={setCurrentPage}
       />
     </>
   );

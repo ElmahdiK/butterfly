@@ -1,8 +1,9 @@
 #main-home {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 20px;
-  padding: 30px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 8px;
+  padding: 10px;
 }
 
 @media (width <= 700px) {

@@ -16,6 +16,8 @@
     flex: 1;
     height: 85vh;
     overflow: scroll;
+    display: flex;
+    flex-direction: column;
   }
 }
 

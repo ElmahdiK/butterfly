@@ -1,10 +1,8 @@
 #div-pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 1px solid dodgerblue;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-self: flex-end;
   width: fit-content;
   p {
     color: #eee;
