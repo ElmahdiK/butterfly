@@ -14,5 +14,9 @@
     {
         "name": "Contact",
         "path": "/contact"
+    },
+    {
+        "name": "TV",
+        "path": "/tv"
     }
 ]

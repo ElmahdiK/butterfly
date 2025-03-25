@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound";
 import Butterfly from "./pages/Butterfly.tsx";
+import TV from "./pages/TV.tsx";
 
 // https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e
 // https://www.youtube.com/watch?v=SOwKHCwfj08&ab_channel=Hackmyhead
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
         { path: "/contact", element: <Contact /> },
         { path: "/shop", element: <Shop /> },
         { path: "/butterfly", element: <Butterfly /> },
+        { path: "/tv", element: <TV /> },
         { path: "/*", element: <NotFound /> },
       ],
     },
