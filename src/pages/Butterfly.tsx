@@ -10,7 +10,8 @@ export default function Butterfly() {
   const name = queryParams.get("name");
 
   const filteredButterflies = butterflies.filter(
-    (butterfly) => butterfly.name.toLowerCase() === name?.toLowerCase()
+    (butterfly) =>
+      name && butterfly.name.toLowerCase().includes(name.toLowerCase())
   );
 
   return (
@@ -19,14 +20,14 @@ export default function Butterfly() {
       {filteredButterflies.length > 0 ? (
         filteredButterflies.map((butterfly) => {
           return (
-            <>
+            <div>
               <img
                 src={`/butterfly/images/butterflies/${butterfly.image}`}
                 alt={butterfly.name}
               />
               <p id="p-butterfly">{butterfly.name}</p>
               <p>{butterfly.description}</p>
-            </>
+            </div>
           );
         })
       ) : (
